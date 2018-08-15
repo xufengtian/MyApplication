@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="45dp" />
+
+    <LinearLayout
+        android:id="@+id/llTabar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/home_activity_bottom">
+
+        <LinearLayout
+            android:id="@+id/llTab1"
+            style="@style/home_tab_style">
+
+            <TextView
+                android:id="@+id/tvTab1"
+                style="@style/home_tab_text_style"
+                android:text="Tab1"
+                android:textColor="@color/themeColor"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/llTab2"
+            style="@style/home_tab_style">
+
+            <TextView
+                android:id="@+id/tvTab2"
+                style="@style/home_tab_text_style"
+                android:text="Tab2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTab3"
+            style="@style/home_tab_style">
+
+
+            <TextView
+                android:id="@+id/tvTab3"
+                style="@style/home_tab_text_style"
+                android:text="Tab3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llTab4"
+            style="@style/home_tab_style">
+
+            <TextView
+                android:id="@+id/tvTab4"
+                style="@style/home_tab_text_style"
+                android:text="Tab4" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

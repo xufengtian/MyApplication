@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/app_background_default"
+              android:orientation="vertical">
+
+    <com.example.mrxu.myapplication.weight.TitleActionBar
+        android:id="@+id/bar_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/layout_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"/>
+
+        <include
+            android:id="@+id/layout_loading"
+            layout="@layout/layout_loading"
+            android:visibility="gone"/>
+
+    </FrameLayout>
+
+</LinearLayout>
