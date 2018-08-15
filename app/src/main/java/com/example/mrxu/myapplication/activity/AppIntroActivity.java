@@ -25,7 +25,7 @@ public class AppIntroActivity extends AppIntro {
         addSlide(AppIntro1Fragment.newInstance(R.layout.appintro_1_fragment_layout));
         setBarColor(getResources().getColor(R.color.themeColor));
 //        setSeparatorColor(getResources().getColor(R.color.colorAccent));
-        setSkipText("左侧按钮");
+        setSkipText("跳过");
         setDoneText("完成");
 
     }
@@ -33,6 +33,8 @@ public class AppIntroActivity extends AppIntro {
     @Override
     public void onSkipPressed() {
         Logger.d("onSkipPressed");
+        startActivity(new Intent(this, HomeActivity.class));
+        finish();
     }
 
     @Override
