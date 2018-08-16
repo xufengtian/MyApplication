@@ -149,13 +149,13 @@ public class HomeActivity extends BaseActivity {
      * 清除掉所有的选中状态。
      */
     private void clearSelection() {
-        tvTab1.setTextColor(getResources().getColor(R.color.c9));
+        tvTab1.setTextColor(getResources().getColor(R.color.gray1));
         tvTab1.getPaint().setFakeBoldText(false);
-        tvTab2.setTextColor(getResources().getColor(R.color.c9));
+        tvTab2.setTextColor(getResources().getColor(R.color.gray1));
         tvTab2.getPaint().setFakeBoldText(false);
-        tvTab3.setTextColor(getResources().getColor(R.color.c9));
+        tvTab3.setTextColor(getResources().getColor(R.color.gray1));
         tvTab3.getPaint().setFakeBoldText(false);
-        tvTab4.setTextColor(getResources().getColor(R.color.c9));
+        tvTab4.setTextColor(getResources().getColor(R.color.gray1));
         tvTab4.getPaint().setFakeBoldText(false);
     }
 

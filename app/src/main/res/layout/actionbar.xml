@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="@color/white_default">
+    android:background="@color/themeColor">
 
     <View
         android:id="@+id/status_bar"
@@ -43,7 +43,7 @@
             android:layout_centerInParent="true"
             android:gravity="center"
             android:singleLine="true"
-            android:textColor="@color/black_default"
+            android:textColor="@color/white_default"
             android:textSize="16sp"
             tools:text="title" />
 
@@ -55,9 +55,6 @@
             android:orientation="horizontal"/>
     </RelativeLayout>
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5px"
-        android:background="@color/line_default" />
+
 
 </LinearLayout>

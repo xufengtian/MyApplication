@@ -36,9 +36,9 @@ public class MyFragment3 extends Fragment {
         DataBean bean = new DataBean();
         bean.setId(R.color.colorAccent);
         DataBean bean1 = new DataBean();
-        bean1.setId(R.color.c3);
+        bean1.setId(R.color.gray1);
         DataBean bean2 = new DataBean();
-        bean2.setId(R.color.c3);
+        bean2.setId(R.color.gray1);
         tempList.add(bean);
         tempList.add(bean1);
         tempList.add(bean2);

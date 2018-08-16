@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#000000</color>
-    <color name="colorAccent">#ffd960</color>
-    <color name="themeColor">#ff1111</color>
+    <color name="colorPrimary">#CB4C3F</color>
+    <color name="colorPrimaryDark">#CB4C3F</color>
+    <color name="colorAccent">#CB4C3F</color>
+    <color name="themeColor">#CB4C3F</color>
     <!--透明-->
     <color name="transparent_default">#00000000</color>
     <!--白色-->
@@ -12,14 +12,12 @@
     <color name="gray_default">#7a7a7a</color>
     <!--黑色-->
     <color name="black_default">#000000</color>
-    <!--应用底色，稍微有点灰-->
-    <color name="app_background_default">#F7F9FF</color>
+    <!--应用底色，纯白色-->
+    <color name="app_background_default">#ffffff</color>
     <!--列表分割线-->
-    <color name="line_default">#d9d9d9</color>
-
-    <color name="c3">#333333</color>
-    <color name="c6">#666666</color>
-    <color name="c9">#999999</color>
-
-
+    <color name="line_default">#EEEEF0</color>
+    <!--副标题的黑-->
+    <color name="black1">#232224</color>
+    <!--底部字的灰-->
+    <color name="gray1">#5F5F5F</color>
 </resources>

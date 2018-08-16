@@ -175,7 +175,7 @@ public class TitleActionBar extends RelativeLayout implements View.OnClickListen
             TextView tv = (TextView) mInflater.inflate(R.layout.tv_title_item, null);
             tv.setLayoutParams(new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.MATCH_PARENT));
             tv.setText(item.getTitle());
-            tv.setTextColor(getResources().getColor(R.color.c9));
+            tv.setTextColor(getResources().getColor(R.color.white_default));
             tv.setCompoundDrawablesWithIntrinsicBounds(0, 0, item.getTextRightDrawable(), 0);
             tv.setOnClickListener(new OnClickListener() {
                 @Override
