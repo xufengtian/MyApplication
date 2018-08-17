@@ -16,7 +16,6 @@ import com.example.mrxu.myapplication.fragment.MyFragment1;
 import com.example.mrxu.myapplication.fragment.MyFragment2;
 import com.example.mrxu.myapplication.fragment.MyFragment3;
 import com.example.mrxu.myapplication.fragment.MyFragment4;
-import com.orhanobut.logger.Logger;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -55,12 +54,6 @@ public class HomeActivity extends BaseActivity {
         super.onCreate(savedInstanceState);
         setTabSelection(0);
 
-        Logger.d("111");
-        Logger.e("222");
-        Logger.w("333");
-        Logger.v("444");
-        Logger.i("555");
-        Logger.wtf("666");
     }
 
     @OnClick(R.id.llTab1)
