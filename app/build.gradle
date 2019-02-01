@@ -39,8 +39,7 @@ dependencies {
     implementation 'jp.wasabeef:glide-transformations:2.0.1'
     //打印日志框架
     implementation 'com.orhanobut:logger:2.1.1'
-    //欢迎页的框架
-    implementation 'com.github.paolorotolo:appintro:3.4.0'
+
     //带提示的输入框
     implementation 'com.wrapp.floatlabelededittext:library:0.0.6'
 }

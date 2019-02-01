@@ -16,17 +16,16 @@
             android:name="com.example.mrxu.myapplication.CustomGlideModule"
             android:value="GlideModule" />
 
-        <activity android:name=".activity.HomeActivity"
+        <activity
+            android:name=".activity.HomeActivity"
             android:launchMode="singleTask">
-
-        </activity>
-        <activity android:name=".activity.MainActivity" />
-        <activity android:name=".activity.AppIntroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.MainActivity" />
+
     </application>
 
 </manifest>
