@@ -7,18 +7,27 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.mrxu.myapplication.BaseFragment;
 import com.example.mrxu.myapplication.R;
 
 
-public class MyFragment4 extends Fragment {
+public class MyFragment4 extends BaseFragment {
 
-    @Nullable
+
+
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.my_fragment1, null);
+    public void onCreateChildView(Bundle savedInstanceState) {
 
+    }
 
-        return view;
+    @Override
+    public int getLayoutId() {
+        return R.layout.my_fragment4;
+    }
+
+    @Override
+    public String getTitleText() {
+        return "";
     }
 
 
